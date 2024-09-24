@@ -7,7 +7,7 @@ public:
 
     void SetEntry(int i, int j, int v);
 
-    int GetEntry(int i, int j); // this is already defined for you. 
+    int GetEntry(int i, int j); 
 
     int CountNonZero();
 
@@ -72,9 +72,6 @@ void matrix::GetSparseRep() {
     // then SparseRow[0]=a, SparseCol[0]=b, SparseVale[0]=m[a][b]. 
     // If the second non-zero element we find is m[c][d], then 
     // SparseRow[1]=a, SparseCol[1]=b, SparseVale[1]=m[a][b]
-    // 
-    // parts of the code is given to you, please build on them
-    // you can add lines both inside and outside the loop.
     // --------------------------------------------------------
     
     //initialize the pointers to new arrays
